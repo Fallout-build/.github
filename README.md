@@ -2,7 +2,9 @@
 
 Org-wide defaults for [Fallout-build](https://github.com/Fallout-build). Nothing here is a project — it's the one copy of the files every repository would otherwise duplicate.
 
-`profile/README.md` is the org landing page. Everything else is a **default community health file**: GitHub serves it for any repository in the org that doesn't ship its own.
+`profile/README.md` is the org landing page. Most of the rest are **default community health files**: GitHub serves them for any repository in the org that doesn't ship its own.
+
+[`costs.md`](costs.md) is the exception — a plain document that lives here because project spend is an org concern rather than a code one. GitHub has no inheritance mechanism for it, so repositories link to it rather than receiving it automatically.
 
 ## What's inherited
 
@@ -13,6 +15,8 @@ Org-wide defaults for [Fallout-build](https://github.com/Fallout-build). Nothing
 | [`SUPPORT.md`](SUPPORT.md) | Every repo — where to file, and what to include |
 | [`.github/FUNDING.yml`](.github/FUNDING.yml) | Sponsor button |
 | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE) | Generic bug / feature forms, as a floor for repos without their own |
+
+Plus [`costs.md`](costs.md), linked rather than inherited — see above.
 
 **A repository's own copy always wins.** GitHub looks in that repo's `.github/`, then its root, then `docs/`, and only falls back here. So a repo with specific needs — the VS Code extension asks for a `build-graph.json` slice, which would be meaningless elsewhere — just ships its own file and the default steps aside. The templates here are the floor, not the ceiling.
 
