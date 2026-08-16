@@ -6,7 +6,9 @@
 
 Report it privately through GitHub: go to the affected repository's **Security** tab and choose **Report a vulnerability**. That opens a private advisory visible only to you and the maintainers.
 
-If private reporting is unavailable on that repository, open a normal issue saying only that you have a security report and asking for a private channel — **no details** — and a maintainer will follow up.
+If you'd rather use email, or private reporting is unavailable on that repository, write to [security@fallout.build](mailto:security@fallout.build).
+
+Either way, don't put details in a public issue.
 
 Please include what you can:
 
