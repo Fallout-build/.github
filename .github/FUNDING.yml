@@ -1,0 +1,5 @@
+# Org-wide default sponsor button. Inherited by every Fallout-build repository
+# that doesn't ship its own .github/FUNDING.yml.
+github: [ChrisonSimtian]
+ko_fi: chrisonsimtian
+buy_me_a_coffee: chrisonsimtian

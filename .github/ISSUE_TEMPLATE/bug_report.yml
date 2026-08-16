@@ -1,0 +1,83 @@
+name: 🐞 Bug Report
+description: "Report something that doesn't look alright."
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        _Hi there :wave: and thanks for taking the time to report a bug!_
+
+        _Found a security vulnerability? **Don't file it here** — see [SECURITY.md](https://github.com/Fallout-build/.github/blob/main/SECURITY.md)._
+
+  - type: input
+    id: usage-information
+    attributes:
+      label: Usage Information
+      description: Fallout (or legacy NUKE) version / .NET SDK version / Target framework / Operating system
+      placeholder: Fallout 10.4.0 / .NET SDK 10.0.100 / net10.0 / Windows 11
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the problem.
+      placeholder: Description
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Reproduction Steps
+      description: |
+        Minimal steps to reproduce — the smallest code snippet, or a small project with steps to run it. Include logs and exceptions as text rather than screenshots.
+      placeholder: Minimal Reproduction
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      placeholder: Expected Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: If applicable, include error messages or stack traces.
+      placeholder: Actual Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: regression
+    attributes:
+      label: Regression?
+      description: |
+        Did this work in an earlier build or release, Fallout or upstream NUKE? If you can try an earlier one, that helps narrow it down. If you don't know, that's OK.
+      placeholder: Regression?
+    validations:
+      required: false
+
+  - type: textarea
+    id: known-workarounds
+    attributes:
+      label: Known Workarounds
+      placeholder: Known Workarounds
+    validations:
+      required: false
+
+  - type: dropdown
+    id: pull-request
+    attributes:
+      label: Could you help with a pull-request?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true

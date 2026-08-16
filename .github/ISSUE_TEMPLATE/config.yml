@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Security vulnerability
+    url: https://github.com/Fallout-build/.github/blob/main/SECURITY.md
+    about: Don't file these as issues. Report privately via the repository's Security tab.
+  - name: 💬 Getting help
+    url: https://github.com/Fallout-build/.github/blob/main/SUPPORT.md
+    about: Which repo to file against, and what to include so the report is actionable.
+  - name: 🧩 Fallout framework
+    url: https://github.com/Fallout-build/Fallout/issues
+    about: Targets, the build engine, tool wrappers, or dotnet fallout itself.
