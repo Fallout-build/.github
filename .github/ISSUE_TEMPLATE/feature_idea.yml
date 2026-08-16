@@ -1,6 +1,6 @@
 name: 💡 Feature Idea
 description: "Suggest a new capability."
-labels: ["enhancement", "triage"]
+labels: ["enhancement", "needs-triage"]
 body:
   - type: markdown
     attributes:
